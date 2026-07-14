@@ -13,7 +13,7 @@ st.markdown("### Analyze Sales, Profit & Customer Performance")
 @st.cache_data
 def load_data():
     df = pd.read_csv(
-        "data/Sample - Superstore.csv",
+        "Sample - Superstore.csv",
         encoding="latin1"
     )
 
